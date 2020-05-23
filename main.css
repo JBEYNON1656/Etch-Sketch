@@ -1,0 +1,14 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px ;
+    grid-gap: 10px;
+
+}
+
+.gridSquare {
+  border: 5px solid teal;
+  background: orange;
+  display: inline-grid;
+  height: 50px;
+  width: 50px;
+}
