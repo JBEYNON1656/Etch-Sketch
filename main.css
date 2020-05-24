@@ -1,12 +1,14 @@
+/* Variables for rows and columns that are manipulated via JS */
 :root {
   --grid-cols: 5;
   --grid-rows: 5;
 } 
 
+/* Reset Button */
 #clear-container {
   margin: 20px 10px;
 	background-color:#848599;
-  border: 3px solid #FFB56A;
+    border: 3px solid #FFB56A;
 	border-radius:8px;
 	color:#ffffff;
 	font-family:Arial;
@@ -14,6 +16,7 @@
 	padding:13px 32px;
 }
 
+/* Controls the size of the ES so it's always the same size */
 #grid-container {
     height: 960px;
     width: 960px;
@@ -25,6 +28,7 @@
     grid-gap: .05%;
 }
 
+/* Each individual ES square */
 .gridSquare {
   border: 1px solid #FFB56A;
   background: #848599;
